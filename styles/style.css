@@ -1,0 +1,144 @@
+			
+			body{
+				
+				background-image:url("background-form.jpg");
+				background-repeat: no-repeat;
+				background-attachment:fixed;
+				background-size: cover;
+			}
+
+			
+			#container{
+		
+				display: grid;
+	            grid-template-rows: 1fr 1fr 1fr;
+				grid-template-columns: 1fr 2fr 1fr;	
+				width: 100vw;
+				height: 100vh;
+				
+			}
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			header{
+				grid-column: 2/3;
+				grid-row: 1/2;
+				padding-bottom: 20px;
+				color: #937ECF;
+				font-family:sans-serif;
+				font-size: 30px;
+
+				font-style: italic;
+				margin-top: 50px;			
+				align-self: top;
+				justify-self: center;
+				letter-spacing: 2px;
+			}
+			form{
+				grid-row: 2/3;
+				grid-column: 2/3;
+				position: relative;
+				border-radius:15px;
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: repeat(12, 1fr) ;
+				box-shadow:  #937ECF -5px -5px 20px;
+				grid-gap: 5px 5px;
+				padding: 10px;
+				
+				
+			}
+			form > label{
+				
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				align-content: left;
+				font-size: 17px;
+				font-family:sans-serif;
+				color: #474545;
+			}
+			label > p{
+				padding-left: 20px;
+				padding-top: 10px;
+
+			}
+			label > input{
+				
+				background-color: #f1f1f1;
+				border-style: none;
+				border-radius: 5px;
+				padding: 5px;
+				align-self: center;
+				height:40px;
+				justify-self:left;
+			}
+			label > input:focus{
+				box-shadow: 0px 0px 4px 3px #937ECF;
+				outline-width: 0px;
+			}
+			label > select{
+				border-style:none;
+				border-radius: 5px;
+				padding: 5px;
+				height: 40px;
+				background-color: #f1f1f1;
+				color: #937ECF;
+				justify-self: left;
+			}
+			
+			#send{
+				padding: 10px;
+				width: 80px;
+				height: 30px;
+				border-radius: 5px;
+				background-color: #f9a602;
+				border-style: none;
+				border-width: 0px;
+				color: white;
+				justify-self: right;
+				align-self: center;
+				
+				margin-right: 30px;
+			}
+			#send:hover{
+				background-color:#7E5AAD;
+			}
+			span{
+				font-size: 13px;
+				padding: 10px;
+			}
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
